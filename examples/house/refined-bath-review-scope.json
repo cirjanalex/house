@@ -1,0 +1,14 @@
+{
+  "source":"P.1 ground WC/shower; p.2 master bath beside sauna and family bath; pp.4–5 lining, ceramic and headroom. Supplement to the full 22-stop scope, not a substitute.",
+  "required_stops":[
+    "Ground-floor WC · door side · daylight","Ground-floor WC · door side · practicals",
+    "Ground-floor WC · reverse · daylight","Ground-floor WC · reverse · practicals",
+    "En-suite bathroom · door side · daylight","En-suite bathroom · door side · practicals",
+    "En-suite bathroom · reverse · daylight","En-suite bathroom · reverse · practicals",
+    "Family bathroom · door side · daylight","Family bathroom · door side · practicals",
+    "Family bathroom · reverse · daylight","Family bathroom · reverse · practicals"
+  ],
+  "inspect":["Verify true ceramic depressions, taps, water, storage, mirrors, tiled areas, screens or tub by comparing four targets from each real stance.",
+    "Check ordinary access to each basin, enter the ground and master showers and continue to the sauna without relocating the eye.",
+    "Compare identical poses in both modes. Keep both the direct window and rooflight contributions legible; inspect the sauna side for spill through a closed partition."]
+}

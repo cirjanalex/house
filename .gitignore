@@ -1,0 +1,11 @@
+.venv/
+.work/
+__pycache__/
+vendor/
+build/
+*.pdf
+*.zip
+attachments/
+private/
+.env
+.env.*

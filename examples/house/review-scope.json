@@ -1,0 +1,14 @@
+{
+  "required_stops": [
+    "Front porch", "Entrance hall", "Office", "Secondary hall", "Plant room",
+    "Ground-floor WC", "Kitchen and dining", "Pantry", "Living room",
+    "Garage circulation and storage", "Garage workshop", "Hobby room",
+    "Stair half-landing", "Mansard landing and hall", "Master bedroom",
+    "Dressing room", "En-suite bathroom", "Sauna", "Laundry",
+    "Family bathroom", "Bedroom 2", "Bedroom 1"
+  ],
+  "source": "Pages 1–2: ground floor, attached annex and mansard; pages 4–6 for stair and entrance levels.",
+  "outside_walk_scope": [
+    "The detached carport and its small external stores are not rooms of the house or attached annex. Review the carport from outside; its stores are not part of this interior route."
+  ]
+}

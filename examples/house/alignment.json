@@ -1,0 +1,70 @@
+{
+  "id":"house-aligned-v1",
+  "bindings":{
+    "geometry":"2db9734bdf8d0a56b55be5cb965ea0919ebd7161cc871e43a7993fe7f66aa461",
+    "furniture":"b6787172515ba6b7abd3fb0de25d634dc25193ea14b5ea2aee3200c92e04e261",
+    "catalog":"6d27dbe4b80cdd3fb3395a71810d79bf647a25c916d518422ea04beec4084199",
+    "site":"af358371ac6328ca9f1ed4f409611a38e23cfea38869c3272e6543fa91462746",
+    "refinement":"60fb03ea2273b0232fc6e635ef5c438c0b663b6d294f943e4fd98949559c63eb"
+  },
+  "replace":{
+    "Office":"*", "Plant room":"*", "Living room":"*", "Hobby room":"*", "Laundry":"*", "Dressing room":"*", "Sauna":"*",
+    "Kitchen and dining":["Cold storage at head of west run","Four-place family table","Dining seat 1","Dining seat 2","Dining seat 3","Dining seat 4"],
+    "Master bedroom":["Reading chair off the dressing circulation","Reading table"],
+    "Bedroom 1":["Low wardrobe off the door sweep","Single bed, east headboard"],
+    "Pantry":"*"
+  },
+  "refs":[
+    ["Office","West-wall two-seat sofa","klippan",3.36,2.13,-90],
+    ["Kitchen and dining","Cold storage on north return","generic-fridge",2.22,9.04,180],
+    ["Living room","Facing sofa at garden end","klippan",8.84,12.77,0],
+    ["Master bedroom","Reading chair facing its partner","poang",6.73,4.58,-37],
+    ["Master bedroom","Reading chair by dormer","poang",8.52,4.58,37],
+    ["Master bedroom","Small shared occasional table (interpretive)","lack",7.63,4.63,0],
+    ["Bedroom 1","Single bed, head to east wall","neiden-single",8.54,10.60,90],
+    ["Bedroom 1","Low sliding storage on south wall","nordkisa",6.76,12.52,0],
+    ["Hobby room","West work position","sandsberg-chair",-4.37,11.67,180],
+    ["Hobby room","East work position","sandsberg-chair",-2.10,11.67,180]
+  ],
+  "sheets":[
+    [1,"Ground-floor plan","Implemented: office sofa and two work chairs; secondary hall kept open; service plant, entry storage, pantry, two-place hobby counter, living suite and six terrace places. Retained: WC fixtures, workshop and vehicle bay, approved kitchen operating envelopes. The freestanding electric cooker combines the drawn separate oven/hob; dishwasher is on the north return rather than west of the sink to preserve its checked blind corner. The annex-side duplicate header now continues the existing 2.10 m house opening, avoiding a 1.80 m obstruction at the step; leaf, jamb, steps and adjoining walls retained. Long garage storage is schematic, not a parked vehicle. Bin platform/screen and grille represented. 1,703 m² is the drawing's area, not surveyed corners."],
+    [2,"Mansard plan","Implemented: north-headed master bed, foot bench and two angled reading seats; two dressing runs, separate washer/dryer, sorting and ironing; opposing headboard directions, writing places and wardrobe sides. Lined sauna opens only to master bath; 1.3 m² is the printed use-area label, not a surveyed footprint. Occupant outlines are not objects. Bed sizes use approved compact frames; joinery, heater and seat heights are original assumptions. Retained: bathrooms, rooflight openings, stair/deck. The 19 rises at about 16.6 cm agree; drawn 28 cm going differs from the accepted simplified 25.2 cm tread pitch."],
+    [3,"Roof plan","Already represented: hipped dwelling, four shed dormers, five rooflights, asymmetric annex, separate photovoltaic carport and pergola footprints. At the front dormer the accepted plane rises 1.29 m over 3.28 m (~21.5°); the drawing labels 20°. Not reproduced exactly: changing the plane would change the approved window-head and lining junction. Main hip also traced from endpoints, not an angle certification."],
+    [4,"Section A–A","Implemented: following both flights with sloped handrails and return at the landing. Retained: ninth-rise turn, finished floor +3.15 m (structure +3.02), grade −0.45, ridge +8.14, west horizontal boarded intrados and wet-room ceramics. Roof/ceiling transitions are representative. Hidden insulation, vapour barriers, piping, fixings and structural/fire ratings are not reproduced or validated."],
+    [5,"Section B–B","Implemented: retractable exterior fabric (specified waterproof and UV-resistant), supported tracks and hanging folds over the dining table; stowed and extended views. Top of rear pergola referenced to +2.97 m above house FFL; exposed members are illustrative treated glulam, not structural sizing. Brown aluminium exterior blinds with discreet rendered-in headboxes at the rear openings. Retained: master dormer head, front pergola. Fabric performance, glazing build-ups and mechanisms not tested."],
+    [6,"North elevation","Implemented: two rows of three 25 × 35 cm decorative recesses, light-grey backing in the white facade; timber lattice privacy screen at carport (25 × 35 cm opening motif); panel rhythm of the sectional garage door. Existing gables, entrance steps and open pergola retained. Recess depth and sectional-door hardware illustrative. People, parked cars and composited trees are not building parts."],
+    [7,"West elevation","Implemented: multi-light bars on both west annex windows, vertical timber gable lining, low entry parapet, timber bin enclosure 1.20 m high. Already represented: rooflights, open carport gable and posts. Benches/table under the retractable dining canopy visible in elevation. Copings and joinery profiles illustrative, property setback not certified."],
+    [8,"East elevation","Implemented: rain-chain outlet and linked drop to a stone/grate catch at living-room return; slim metal window guard and light-grey projecting living-volume parapet. Existing sided pergola retained; vine silhouettes not copied, planting illustrative. Rain discharge below ground, steel detailing and waterproofing not designed."],
+    [9,"South elevation","Implemented: brown exterior aluminium slats with side guides at the rear bedroom dormer and living window, multi-light wide hobby window, terrace seating/cover and plinth edge. PV, rooflights and eaves retained. Partial lowering of the blinds and exact spacing are presentation choices; no fabricated product or performance specification is implied."]
+  ],
+  "repairAudit":{
+    "1":"PAV-01 / GAR-01: individual stone flags fan from the parking approach, run alongside and return behind the annex. The 3.5% transverse-striated concrete apron falls NORTH, away from the garage into a linear drain. The 0.15 m difference between the accepted garage and grade gives a 4.286 m graded length; the remaining forecourt is level. This is not a certified non-slip or drainage specification. FUR-01: both sectional bases have feet to their board/rug supports; the plant unit has visible floor feet. JCT-01: the south living-room wall continues to the outer face of its short west return. The plinth, not indoor boards, finishes the former 195 × 200 mm corner gap by the east terrace steps. The footprint, thresholds and terrace levels are unchanged.",
+    "2":"WIN-01: the east stair plan explicitly marks 90 × 132 cm, Hp=166 cm from the turn landing. The east elevation shows a roughly 180 × 132 cm horizontal opening instead. This revision follows the p.8 width and alignment between dormers, with the p.2/p.4 sill and head, and no invented lower sash. SAU-01: the guard and heater now bear on the cabin's tile finish. An unlabeled narrow rectangle on the west side of the master bedroom has not been identified as cabinetry; no additional branded unit has been inferred.",
+    "4":"STR-01: both handrails connect through individual steel uprights and base plates fitted to their actual tread or ninth-rise landing. ANN-01: separate painted plasterboard/skim finish to both inside annex pitches and west inner gable; exterior metal and timber remain intact. HOB-01: the lighting-volume boundary is just inside the partition thickness rather than exactly coincident with its decorated face. No shadow or practical was removed.",
+    "5":"TER-02 / CAN-01: rear finish starts at house ±0.00 and falls outward 1% over 4.00 m. There are two lateral, two-tread descents to grade; no garden-facing centre step. Columns and four-foot furniture bear on this sloping surface. The four outer column bearings include the closely spaced intermediate pair; rear beam top remains +2.97. Section sizes and plate depths illustrative.",
+    "6":"PER-01 / ENT-01: eight outer entrance-pergola posts, including the close west pair, follow the uneven plan/elevation spacing. Grey vertical timber boards, pull and existing glazed sidelight at the main entrance; hinges and clear passage retained.",
+    "8":"WIN-01: the middle stair opening is a wide single light between the two tall guarded dormer windows, not a third tall sash. Chosen outer opening 1.80 × 1.32 m at z=5.97–7.77 m, sill +3.15 m and head +4.47 m. The 1.80 m width is traced from this elevation rather than the conflicting 0.90 m width on p.2.",
+    "9":"ENT-01 / TER-02: framed full-height glazed rear leaf opens onto the shaded terrace. Lateral steps, the two close intermediate outer posts and seated table can be read from the garden."
+  },
+  "roomAudit":[
+    ["Front porch / entrance","p.1: stepped covered approach and storage at entry. Keep the door and stair route clear; add a tall shallow coat cupboard opposite the existing low cubbies."],
+    ["Office","p.1 + p.5: long east desk with two seated work positions opposite a west two-seat sofa. No invented second room."],
+    ["Plant room","p.1: ventilation unit with heat recovery, P.C. equipment and cylinder labelled 300 L. Visible masses only; no connected services or engineered equipment."],
+    ["Secondary hall / WC","p.1: leave the through-hall open; retain the WC, basin, shower, tile and usable door."],
+    ["Kitchen and dining","p.1: L work run, fridge on the north return, peninsula with four across-facing seats and dishwasher. Preserve cooker/drawer and three sink-door strokes; appliance front separations are recorded on p.1 above."],
+    ["Pantry","p.1: shallow perimeter shelving returning down the west side, not a single freestanding rack. Keep the pantry door pocket/swing."],
+    ["Living room","p.1: one continuous L (short return at west), facing garden-side sofa, coffee table on rug and media on east wall. Softened corners and child-scale storage; people omitted."],
+    ["Garage workshop / circulation","p.1: distinct repair bay and long narrow divider/storage, with a separate pedestrian route. Existing bench/rack retained; added central storage; no display motorcar."],
+    ["Hobby","p.1: wide rear-window worktop and two work seats, with storage at its ends."],
+    ["Rear terrace","p.1: one longitudinal outdoor table, two chairs on each long side and one at each end. p.2/5/7/8: retractable shade on glulam; separate from entry pergola."],
+    ["Stair / distribution hall","p.1/2/4: flights and clear turning landing, upper guard and handrails. No loose furniture added to circulation."],
+    ["Master bedroom","p.2: front headboard, two bedside pieces, foot bench and a pair of angled lounge chairs. Small shared table is a furnishing choice, not a figure traced as furniture."],
+    ["Dressing","p.2: two opposing storage runs, shortened at the bath and bedroom approaches; section heights adapted for the sloped lining."],
+    ["Master bath / sauna","p.2: separate WC/vanity/walk-in shower and small wood-lined enclosure off the bath. L seat/backrests correspond to occupied bench area, south-door hinge as traced. Glazed leaf, stones, guard and wood profiles are illustrative, not installation instructions."],
+    ["Laundry","p.2: separate washer and dryer at the west end of the south run, worktop and rounded ironing surface, clear door swing."],
+    ["Family bathroom","p.2: west tub, north-wall WC and basin/mirror retained, without obscuring rooflight or adding unsupported sanitaryware."],
+    ["Bedroom 2","p.2: west headboard, north-side storage, east homework chair/desk. Approved compact proxies retained; extended low storage along the same side."],
+    ["Bedroom 1","p.2: east headboard, desk/chair to north, wardrobe at south. Furniture stays below the sloping roof and clear of door."],
+    ["Carport / detached stores","p.1/3/6–9: retain two open bays, store block, operating leaves and PV; add open timber privacy lattice and separate bin pen. Store interiors not dressed or included in the house route."]
+  ]
+}

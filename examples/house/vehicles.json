@@ -1,0 +1,15 @@
+{
+  "id":"house-vehicles-v1",
+  "parent_sha256":"60457a9bf79a903d3d93e4591a1b21b0527a3417b0e3d61b6de54e1f9e146cd2",
+  "carport":{"car":[-13.70,-0.45,-1.30],"trailer":[-15.37,-0.45,-4.27],"yaw_deg":90},
+  "lift":{"x":-3.9,"z":7.80,"floor":-0.30,"platform_width":0.55,"platform_length":1.75,"platform_gap":0.80,"embedded":0.27,"stroke":1.80,"pad":0.08,"pickup_above_ground":0.235,"study_margin":0.025},
+  "references":[
+    {"name":"Dacia 1300 • dimensions de génération","url":"https://www.auto-data.net/ro/dacia-1300-generation-3526"},
+    {"name":"Face 1310 ancienne • référence de forme","url":"https://www.autoevolution.com/cars/dacia-1310-1979.html"},
+    {"name":"Arrière 1300 • disposition des feux","url":"https://commons.wikimedia.org/wiki/File:Dacia_1300_-_Rear_View_(2).jpg"},
+    {"name":"MY2025 KNAUS SÜDWIND 450 FU • Caraworld","url":"https://www.caraworld.at/360-grad-virtuelle-touren/knaus/caravan-2025/suedwind.450-fu.html"},
+    {"name":"KNAUS • dimensions corroborantes seulement","url":"https://www.knaus.com/en/caravans/suedwind-black-selection/450-fu"},
+    {"name":"Twin Busch România • TWS3-18UE-G","url":"https://www.twinbusch.ro/Elevatoare-foarfeca/Elevator-tip-foarfeca-cu-montare-ingropata-3000-kg-TWS3-18UE-G-GREY-Line::196.html"},
+    {"name":"Twin Busch • dessin coté","url":"https://files.twinbusch.de/twimg/de/produkte/scherenheb/tws3-18ue-g/abmessungen/abmessungen_heb_s3-18ue-g_ohne.jpg"}
+  ]
+}

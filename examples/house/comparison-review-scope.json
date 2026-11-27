@@ -1,0 +1,12 @@
+{
+  "source":"Additional to ALL six unchanged scopes. Same occupied short-bay datum for both cars; same workshop datum and requested stroke. Re-enter and return around the car, with the trailer already in its long bay.",
+  "required_stops":[
+    "Short bay · Dacia at common datum","Short bay · Mercedes at common datum",
+    "Technical store · past parked Mercedes","Garden store · around parked Mercedes",
+    "KNAUS · estimated rooftop AC","KNAUS · factory height restored",
+    "Workshop · Dacia closed sectional","Workshop · Mercedes closed sectional",
+    "Workshop · Dacia open sectional","Workshop · Mercedes open sectional",
+    "Short bay · Mercedes returned"
+  ],
+  "inspect":["Check active car at identical centres, front/rear/mirror fit, occupied aisle, access to both stores (do not walk behind the Mercedes), canopy/roof and paving. Compare actual workshop door endpoints, pitched lining, support geometry at same proposed stroke. Crosscheck common numeric rows and signed negative proposals in comparison_states.js, all five saved paving witnesses and both actual car approaches with comparison_motion.py."]
+}

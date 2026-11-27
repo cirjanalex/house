@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Concept studio · Architectural review</title><style>@@STYLE@@</style></head>
+<body><header><div class="badge" aria-hidden="true">CS</div><div><small>CONCEPT STUDIO / SPATIAL REVIEW</small><h1 id="title">Architectural concept</h1></div><span class="tag" id="status"></span></header>
+<main><section id="stage" aria-label="Interactive building model">
+<div id="viewport" tabindex="0" aria-label="3D view. Arrow keys orbit; plus and minus zoom."></div>
+<div class="viewbar"><button id="walk" aria-pressed="false">Walk through</button><button id="home">House</button><button id="site">Whole site</button><button id="plan">Plan view</button></div>
+<div id="pad" hidden aria-label="Walking controls"><button data-key="KeyA" aria-label="Step left">←</button><button data-key="KeyW" aria-label="Walk forward">↑</button><button data-key="KeyS" aria-label="Walk backward">↓</button><button data-key="KeyD" aria-label="Step right">→</button><button id="jump">Jump</button></div>
+<div class="foot"><b id="caption">Exterior</b><span id="hint">Drag to orbit · right-drag to pan · scroll to zoom</span></div>
+<p id="error" role="alert" hidden></p></section>
+<aside><small>MODEL CONTROLS</small><h2>Explore the concept</h2>
+<label for="level">Cutaway</label><select id="level"><option value="all">Entire building</option></select>
+<div id="starts" hidden><label for="start">Walk starting point</label><select id="start"></select><p>Walk with WASD or the arrows. Use Space or Jump for a small hop. Tap a door or aim and press E. Esc exits.</p></div>
+<div class="switch"><label for="finish">Material finishes</label><input id="finish" type="checkbox"></div>
+<div class="switch" id="furniture-switch"><label for="items">Show placed furniture</label><input id="items" type="checkbox"></div>
+<button id="inventory-button" hidden>Furniture inventory</button>
+<div class="section"><small>DRAWING EVIDENCE</small><h3 id="selection">Shell overview</h3>
+<p id="reference">Select a building element to see its source sheets.</p>
+<button id="review">Drawing notes &amp; credits</button></div>
+<div class="section"><small>FURNITURE · AGENT HANDOFF</small><h3 id="brief-heading">Plan the furniture</h3><p id="brief-status">This viewer does not place products. Create a request for your agent to build a furnished version.</p><button class="accent" id="brief">Create furniture request</button></div>
+<div class="stamp">Geometry revision <code id="revision"></code></div></aside></main>
+<dialog id="drawer"><form method="dialog" class="closebar"><small>CONCEPT STUDIO</small><button aria-label="Close">Close ×</button></form>
+<div id="inventory" hidden><h2>Furniture inventory</h2><p>Overall envelopes are shown in local X × depth × height order, before rotation. Dimensional proxies are original schematic shapes, not retailer models. Generic modules have no product reference. Verify fit, installation and anchoring on site.</p><div id="inventory-list"></div></div>
+<div id="notes" hidden><h2>Drawing notes</h2><ul id="noteList"></ul><h3>Sources &amp; credits</h3><div id="credits"></div></div>
+<form id="preferences" hidden><h2>Furniture request</h2><p>Choose a retailer or style. Next you can copy a request into Copilot or download the brief. Nothing is sent automatically.</p>
+<label for="retailer">Preferred retailer</label><input id="retailer" placeholder="e.g. IKEA Romania">
+<label for="style">Style or priorities</label><input id="style" placeholder="e.g. oak, compact, child-friendly">
+<label for="budget">Budget and currency (optional)</label><input id="budget" placeholder="e.g. 15,000 RON for living room">
+<label class="agreement"><input type="checkbox" required> I have reviewed this geometry and approve it for furniture placement.</label>
+<button class="accent">Create request</button><p id="notice" role="status"></p></form>
+<section id="handoff" hidden><h2>Furniture request ready</h2><p>Copy this into the project’s agent chat to start product selection. The drawing and your preferences stay local until you share them.</p>
+<label for="request-text">Request for your agent</label><textarea id="request-text" rows="8" readonly></textarea>
+<button id="copy-request" class="accent">Copy request</button> <button id="save-request">Download JSON</button> <button id="edit-request">Edit</button><p id="copy-status" role="status"></p></section></dialog>
+<script type="application/json" id="scene-data">@@SCENE@@</script>
+<!-- Three.js license:
+@@LICENSE@@
+-->
+<script>@@ENGINE@@</script><script>@@WALK@@</script><script>@@VIEWER@@</script></body></html>

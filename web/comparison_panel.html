@@ -1,0 +1,33 @@
+<style>
+#vehicle-study{font:13px/1.4 system-ui}#vehicle-study summary{cursor:pointer;padding:5px 0}#vehicle-study input[type=range]{padding:0}
+#vehicle-study select{font-size:13px;padding:5px}#vehicle-study table{border-collapse:collapse;width:100%;font-size:12px;font-variant-numeric:tabular-nums}
+#vehicle-study th,#vehicle-study td{border-bottom:1px solid #d8dfd8;padding:4px 2px;text-align:right}
+#vehicle-study th:first-child{text-align:left;font-weight:500}#vehicle-study caption{text-align:left;font-weight:700;margin:8px 0 3px}
+#vehicle-study .bad{color:#8c301e;font-weight:700}#v-warning:not(:empty){border-left:3px solid #ae784b;padding-left:8px}
+@media(min-width:900px){main{grid-template-columns:minmax(0,1fr) 350px}}
+</style>
+<details id="vehicle-study" open lang="ro"><summary><b>Două mașini · același elevator</b></summary>
+<button type="button" id="v-bay-view">Vedere carport</button> <button type="button" id="v-lift-view">Vedere garaj</button>
+<label for="v-car">Mașina vizibilă</label><select id="v-car"><option value="dacia">Dacia albă · tranziție 1300/1310</option><option value="mercedes">Mercedes-Benz S 500 L · 1996</option></select>
+<label for="v-location">Poziția mașinii selectate</label><select id="v-location"><option value="bay">Carport · lângă KNAUS</option><option value="lift">Garaj · pe elevator</option></select>
+<label for="v-bay">Amplasament în boxa scurtă</label><select id="v-bay"><option value="original">Inițial · X −13,700 / Z −1,300</option><option value="center">Alternativ · X −14,075 / Z −1,130</option></select>
+<label for="v-door">Ușa secțională a garajului</label><select id="v-door"><option value="closed">Închisă</option><option value="open">Deschisă</option></select>
+<label for="v-x">Ax elevator X <output id="v-xo"></output></label><input type="range" id="v-x" min="-4.6" max="-3.15" step=".05" value="-3.90">
+<label for="v-z">Ax elevator Z <output id="v-zo"></output></label><input type="range" id="v-z" min="7" max="8.6" step=".05" value="7.8">
+<label for="v-h">Cursă cerută <output id="v-ho"></output></label><input type="range" id="v-h" min="0" max="1.80" step=".01" value="0">
+<button id="v-reset" type="button">Resetare studiu</button>
+<p id="v-warning" role="status"></p><div id="v-comparison"></div>
+<p id="v-clear"></p>
+<details><summary><b>Acces cu cealaltă boxă ocupată</b></summary><p id="v-trials"></p>
+<p>Probe geometrice separate, cu poarta deschisă, rulotă fără AC și oglinzi desfășurate. Traseul cu arc de 4,50 m folosește un corp rigid; nu validează raza de bracaj a mașinii și nici ansamblul cu tractor. Schimbarea scenei nu animă traseul. Marjele pietonale folosesc corpul virtual de 0,34 m, nu norme de accesibilitate.</p></details>
+<details open><summary><b>KNAUS SÜDWIND 450 FU · 2025</b></summary>
+<label for="v-ac">Echipament pe plafon</label><select id="v-ac"><option value="off">Fără AC</option><option value="on">AC estimat</option></select>
+<label for="v-ach">Înălțime unitate de la pielea plafonului <output id="v-acho"></output></label>
+<input type="range" id="v-ach" min=".140" max=".650" step=".005" value=".225">
+<p id="v-trailer"></p></details>
+<details><summary><b>Dimensiuni, surse și limite</b></summary>
+<p>Mercedes 1996, V 140 E 50 / 140.051: 5,213 × 1,886 × 1,486 m; ampatament 3,140 m. 2.010 kg DIN / 2.660 kg total maxim. Arhiva Mercedes-Benz nu precizează dacă lățimea de 1,886 m include oglinzile. În model o interpretăm ca lățime a caroseriei; cu oglinzile desfășurate presupunem 2,200 m. Dacia: 4,345 × 1,635 × 1,435 m; ampatament 2,440 m. Cu oglinzile desfășurate presupunem 1,890 m. Modele poligonale originale, fără sigle.</p>
+<p>Twin Busch TWS3-18UE-G · 3.000 kg · 20.799 RON cu TVA, transport separat. Două platforme de 0,55 × 1,55–1,95 m (vizual 1,75 m); între ele 0,80 m, lățime totală 1,90 m. Cursă nominală 1,80 m, tampoane 0,08 m, pachet îngropat 0,27 m. Comparație de gabarit: masa sub 3 t nu certifică ridicarea. Masa exemplarelor și punctele portante ale ambelor șasiuri sunt neverificate.</p>
+<p>Suprafețe de sprijin și adaptoare ilustrative. Ampatamentul nu este distanța între punctele de ridicare. Nu sunt instrucțiuni de ridicare, montaj sau utilizare. Rezerva de calcul de 25 mm nu este o distanță de siguranță. Cursa afișată este prima limită geometrică conservatoare de la repaus, rotunjită în jos la pasul de 1 cm.</p>
+<p>Scena schimbă amplasamentul, nu conduce vehiculul. Marjele de toc sunt pentru mers drept. Traseul curbat de studiu nu verifică bracajul real, suspensia, șinele reale sau accesul cu vehicul tractor. Ușile mașinilor sunt închise. Niciun gabarit nu garantează deschiderea lor. Tăierea etajului și ascunderea mobilei nu elimină obstacolele din calcul.</p>
+<div id="v-sources"></div></details></details>

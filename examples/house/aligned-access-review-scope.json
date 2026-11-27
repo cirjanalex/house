@@ -1,0 +1,6 @@
+{
+  "source":"P.1 garage apron/drain, stone path and two side approaches; p.5 dining terrace fall; p.6 garage and p.9 garden elevation. Additional to the prior 67 stops.",
+  "required_stops":["Garage ramp · from court","Garage threshold · inside","West annex · flag path","Rear annex · return flags","West terrace · lateral ascent","East terrace · lateral descent"],
+  "inspect":["Start at the original entrance path, open the real garage panel, enter, return and latch it. Walk the fan, west and rear flags. Go up the west steps and down the east steps, returning around the house. No relocated camera or furniture/door bypass.",
+    "Check actual rendered finish, live supported feet and walk-camera coordinates at a sequence of ramp/flag/tread/sloping-deck points; normal furnishings and default light. Inspect the remaining sightlines and physical contacts with the supplemental twelve-ID mesh probes."]
+}

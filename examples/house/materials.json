@@ -1,0 +1,6 @@
+{
+  "render":{"color":"#fffaf1","tile_m":1.6,"texture_strength":0.13,"texture":{"file":"white_plaster_rough_01.jpg","source":"https://polyhaven.com/a/white_plaster_rough_01","license":"CC0-1.0","sha256":"8d3b209ec5bbcee3db7a883c6c2eee982b7c18a268e6f43766ee540c7c28ebcb"}},
+  "floor":{"color":"#f1ddbe","tile_m":2.5,"texture":{"file":"wood_floor.jpg","source":"https://polyhaven.com/a/wood_floor","license":"CC0-1.0","sha256":"5977ce2aeaaddf285e8508416f8f152516094036357d0813ff4149e96e3bc3a4"}},
+  "roof":{"color":"#616b74"},"timber":{"color":"#be9369"},"stone":{"color":"#c8bfb1"},"partition":{"color":"#eee7db"},
+  "pv":{"color":"#2e4f75"},"skylight":{"color":"#8caeb4"},"frame":{"color":"#535c61"},"glass":{"color":"#b1d4df"}
+}

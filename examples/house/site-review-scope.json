@@ -1,0 +1,23 @@
+{
+  "required_stops": [
+    "Street approach · closed gate",
+    "Street approach · leaf open",
+    "Garden side · latched gate",
+    "Entry planting and frontage",
+    "Gate to front porch",
+    "Open drive mouth",
+    "Turn west into both carport bays",
+    "West canopy from the parking court",
+    "West garden and carport",
+    "Rear garden and terrace",
+    "Rear canopy across the terrace lawn",
+    "Return · gate open from the garden"
+  ],
+  "source": "Supplement to review-scope.json, not a replacement. Page 1 for approach, oblique edge, carport and planting context. Pages 6–9 for scale, orientations and property-limit context. Exact landscaping is illustrative.",
+  "inspect": [
+    "Whole site: house remains legible; distinguish pedestrian gate/path, separate vehicle opening and turning apron, three trees, carport and PV.",
+    "Start on the street using the visible walk selector. Test near/far operation, closed collisions from both sides, an unobstructed inward swing, refusal to close on a walker in the opening, re-latching from each side and a continuous return.",
+    "Walk the route to the house entrance and back. Walk the independent clear drive through the east opening of both parking bays. Inspect fence and trees from multiple positions; approach each trunk under its raised crown.",
+    "The frontage is partial. No surveyed parcel, exact road width, species identification, vehicle engineering, utilities or carport-store interior review is implied."
+  ]
+}

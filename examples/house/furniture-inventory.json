@@ -1,0 +1,27 @@
+{
+  "market":"IKEA Romania",
+  "verified_local_date":"2026-11-26",
+  "dimensions":"Metres, local X span × overall height × local Z span. IKEA values from the product Măsurători section; never packaging or mattress dimensions.",
+  "representation":"All entries are original procedural dimensional PROXIES. No licensed exact meshes, catalogue photographs or product textures are included. Finish colours and component proportions are illustrative.",
+  "limits":"Concept only. Check actual fit, anchoring, heat clearances, ventilation and services before installation. No child safety certification is claimed.",
+  "entries":{
+    "klippan":{"name":"KLIPPAN two-seat sofa · Vissle green","sku":"795.616.63","product":"https://www.ikea.com/ro/ro/p/klippan-canapea-2-locuri-vissle-verde-s79561663/","kind":"sofa","size":[1.80,0.66,0.88]},
+    "sandsberg-table":{"name":"SANDSBERG dining table · black","sku":"294.203.93","product":"https://www.ikea.com/ro/ro/p/sandsberg-masa-negru-s29420393/","kind":"table","size":[1.10,0.75,0.67]},
+    "sandsberg-chair":{"name":"SANDSBERG chair · black","sku":"306.054.23","product":"https://www.ikea.com/ro/ro/p/sandsberg-scaun-negru-30605423/","kind":"chair","size":[0.39,0.77,0.47]},
+    "micke":{"name":"MICKE compact desk · white","sku":"302.130.76","product":"https://www.ikea.com/ro/ro/p/micke-birou-alb-30213076/","kind":"desk","size":[0.73,0.75,0.50]},
+    "kallax":{"name":"KALLAX four-cube shelf · white","sku":"202.758.14","product":"https://www.ikea.com/ro/ro/p/kallax-etajera-alb-20275814/","kind":"cubby","size":[0.765,0.765,0.39]},
+    "neiden-single":{"name":"NEIDEN single bed frame · pine","sku":"403.952.45","product":"https://www.ikea.com/ro/ro/p/neiden-cadru-pat-pin-40395245/","kind":"bed","size":[0.94,0.65,2.05],"note":"Overall frame incl. headboard, not 90 × 200 cm mattress. Bedding is schematic and not included in the SKU."},
+    "neiden-double":{"name":"NEIDEN double bed frame · pine","sku":"703.952.39","product":"https://www.ikea.com/ro/ro/p/neiden-cadru-pat-pin-70395239/","kind":"bed","size":[1.44,0.65,2.05],"note":"Overall frame incl. headboard, not 140 × 200 cm mattress. Bedding is schematic and not included in the SKU."},
+    "omar":{"name":"OMAR galvanised storage rack","sku":"100.697.63","product":"https://www.ikea.com/ro/ro/p/omar-etajera-galvanizat-10069763/","kind":"rack","size":[0.92,0.94,0.36]},
+    "knoxhult":{"name":"KNOXHULT base with doors, drawer and worktop · white","sku":"703.267.88","product":"https://www.ikea.com/ro/ro/p/knoxhult-corp-baza-cu-usi-sertar-alb-70326788/","kind":"prep_base","size":[1.82,0.91,0.61],"note":"182 cm overall worktop length; cabinet width 180 cm."},
+    "nordkisa":{"name":"NORDKISA low open wardrobe · bamboo","sku":"304.394.76","product":"https://www.ikea.com/ro/ro/p/nordkisa-dulap-deschis-cu-usa-glisanta-bambus-30439476/","kind":"wardrobe","size":[1.20,1.23,0.47]},
+    "lack":{"name":"LACK small side table · white","sku":"305.147.91","product":"https://www.ikea.com/ro/ro/p/lack-masuta-auxiliara-alb-30514791/","kind":"side_table","size":[0.35,0.35,0.35]},
+    "vesken":{"name":"VESKEN narrow shelf · white","sku":"403.078.66","product":"https://www.ikea.com/ro/ro/p/vesken-etajera-alb-40307866/","kind":"bath_rack","size":[0.367,1.006,0.233]},
+    "bror":{"name":"BROR workbench · black and pine plywood","sku":"303.332.86","product":"https://www.ikea.com/ro/ro/p/bror-masa-lucru-negru-placaj-pin-30333286/","kind":"workbench","size":[1.10,0.88,0.55]},
+    "poang":{"name":"POÄNG reading chair · birch and Knisa light beige","sku":"392.407.87","product":"https://www.ikea.com/ro/ro/p/poaeng-fotoliu-furnir-mesteacan-knisa-bej-deschis-s39240787/","kind":"armchair","size":[0.68,1.00,0.82]},
+    "generic-sink":{"name":"Generic sink and landing counter","kind":"blind_sink_base","size":[2.34,1.19,0.61],"note":"Fixed unhandled blind panel at the cooker return; three doors face the aisle, each hinged at its west edge. Design allowance only; total height includes tap, working surface approximately 91 cm. Not an IKEA product."},
+    "generic-cooker":{"name":"Generic freestanding electric cooker","kind":"cooker","size":[0.60,0.91,0.60],"note":"Design allowance only; no appliance, ventilation or connection specified. Not an IKEA product."},
+    "generic-fridge":{"name":"Generic fridge-freezer","kind":"fridge","size":[0.60,1.70,0.65],"note":"Design allowance only; not an installation specification or IKEA product."},
+    "generic-bench":{"name":"Generic slatted sauna seat","kind":"bench","size":[1.06,0.44,0.39],"note":"Seating mass only; heater, thermal clearances and sauna construction are not specified. Not an IKEA product."}
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id":"house-lift-comparison-v1",
+  "parent_sha256":"fd087cb3fb8764612f80cad4587efbe9af5f5dfa13088f75a512faca1a2e6fce",
+  "cars":{
+    "dacia":{"name":"Dacia 1300/1310","body":1.635,"mirrors":1.89,"length":4.345,"height":1.435,"axles":[-1.23,1.21],"wheelbase":2.44,"pickup":0.235,"panWidth":1.21},
+    "mercedes":{"name":"Mercedes-Benz S 500 L","body":1.886,"mirrors":2.2,"length":5.213,"height":1.486,"axles":[-1.60,1.54],"wheelbase":3.14,"pickup":0.195,"panWidth":1.48,"kerbDIN":2010,"gross":2660}
+  },
+  "centeredBay":[-14.075,-0.45,-1.13],
+  "trailer":{"skin":2.55,"factory":2.57,"acZ":0.33,"acWidth":0.702,"acHeight":0.225,"acDepth":0.752},
+  "sources":[
+    {"name":"Mercedes-Benz Public Archive · V 140 E 50 / 140.051 (1994–1998)","url":"https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/S-500-long-wheelbase.xhtml?oid=4949"},
+    {"name":"Dometic · FreshJet FJX4 2200 · dimensiuni exterioare","url":"https://www.dometic.com/en/product/dometic-freshjet-fjx4-2200-75"}
+  ]
+}

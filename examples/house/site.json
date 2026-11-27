@@ -1,0 +1,28 @@
+{
+  "geometry_sha256": "2db9734bdf8d0a56b55be5cb965ea0919ebd7161cc871e43a7993fe7f66aa461",
+  "notes": [
+    "Illustrative site layer, not a surveyed or legal boundary. The north approach, carport orientation and oblique western edge follow the ground-plan context (p. 1); the lateral elevations show a setback beyond the carport (pp. 7–8). The frontage length, offset, gate, handing, paving and finish are proposals, not measured street or property geometry.",
+    "The 1.24 m timber pedestrian leaf opens into the garden. The separate drive opening stays clear for turning west into the carport’s east-facing bays. Only a short frontage and western return are shown, not a complete enclosure.",
+    "Three original, seeded broadleaf studies echo the planting masses on p. 1 and silhouettes on pp. 6–9. Locations, sizes, crown shapes and species are illustrative. No tree survey, vehicle swept-path, utility layout or PV shading study is implied."
+  ],
+  "start": {"name":"Street · pedestrian gate","xz":[1.72,-11.8],"heading":0,"look_up":-13},
+  "frontage": {
+    "runs": [
+      [[-21.42,-3.65],[-22.45,-9.45]],
+      [[-22.45,-9.45],[-8.75,-9.45]],
+      [[-2.35,-9.45],[1.04,-9.45]],
+      [[2.40,-9.45],[11.9,-9.45]]
+    ],
+    "leaf": {"center":[1.72,-9.45],"width":1.24,"height":1.38,"hand":"start-"}
+  },
+  "paving": [
+    {"name":"Street-side apron","slot":"s_apron","ring":[[-23,-13.7],[12.7,-13.7],[12.7,-10.65],[-23,-10.65]]},
+    {"name":"Drive and turning apron","slot":"s_setts","ring":[[-9.05,-10.65],[-2.08,-10.65],[-2.405,-9.45],[-1.85,-5.9],[-1.1,-3.15],[-1.1,1.3],[-0.4,4.9],[-2.5,4.9],[-4.7,1],[-8,-1.5],[-11.35,-1.5],[-11.35,-5.97],[-10.15,-6.55],[-9.27,-7.65],[-8.695,-9.45]]},
+    {"name":"Pedestrian path","slot":"s_path","ring":[[0.77,-10.65],[2.67,-10.65],[2.39,-9.45],[2.47,-1.7],[0.76,-1.7],[1.05,-9.45]]}
+  ],
+  "trees": [
+    {"name":"Entry garden tree","xz":[7.65,-5.7],"height":4.95,"radius":1.72,"trunk":0.095,"seed":24,"leaf":"sage","habit":"upright"},
+    {"name":"West garden tree","xz":[-16.05,9.4],"height":5.9,"radius":2.35,"trunk":0.135,"seed":73,"leaf":"olive","habit":"spreading"},
+    {"name":"Rear garden tree","xz":[-3.15,20.0],"height":7.05,"radius":2.8,"trunk":0.165,"seed":152,"leaf":"green","habit":"rounded"}
+  ]
+}
